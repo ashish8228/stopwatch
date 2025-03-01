@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    background-color: rgb(134, 193, 244);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 2px 5px 5px;
+}
+
+#time{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+sub{
+    font-size: x-small
+}
+
+.clock{
+    font-weight: bolder;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#start{
+    background-color: green;
+   
+}
+#stop{
+    background-color: greenyellow;
+}
+#reset{
+    background-color: red;
+}
